@@ -1,0 +1,66 @@
+[2025-04-28 13:03:29.958120] |==============================================================================|
+[2025-04-28 13:03:29.958560] |=========                      OpenRAM v1.2.48                       =========|
+[2025-04-28 13:03:29.958786] |=========                                                            =========|
+[2025-04-28 13:03:29.959045] |=========               VLSI Design and Automation Lab               =========|
+[2025-04-28 13:03:29.959255] |=========        Computer Science and Engineering Department         =========|
+[2025-04-28 13:03:29.959388] |=========            University of California Santa Cruz             =========|
+[2025-04-28 13:03:29.959530] |=========                                                            =========|
+[2025-04-28 13:03:29.959679] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-04-28 13:03:29.959826] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-04-28 13:03:29.959974] |=========                See LICENSE for license info                =========|
+[2025-04-28 13:03:29.960096] |==============================================================================|
+[2025-04-28 13:03:29.960262] ** Start: 04/28/2025 13:03:29
+[2025-04-28 13:03:29.960418] Technology: scn4m_subm
+[2025-04-28 13:03:29.960570] Total size: 128 bits
+[2025-04-28 13:03:29.960703] Word size: 8
+Words: 16
+Banks: 1
+[2025-04-28 13:03:29.960856] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2025-04-28 13:03:29.961025] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-04-28 13:03:29.961168] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2025-04-28 13:03:29.961310] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-04-28 13:03:29.961457] Words per row: None
+[2025-04-28 13:03:29.961656] Output files are: 
+[2025-04-28 13:03:29.961847] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.lvs
+[2025-04-28 13:03:29.962064] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.sp
+[2025-04-28 13:03:29.962341] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.v
+[2025-04-28 13:03:29.962630] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.lib
+[2025-04-28 13:03:29.962910] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.py
+[2025-04-28 13:03:29.963160] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.html
+[2025-04-28 13:03:29.963373] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.log
+[2025-04-28 13:03:29.963604] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.lef
+[2025-04-28 13:03:29.963857] /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.gds
+[2025-04-28 13:03:30.900490] ** Submodules: 0.9 seconds
+[2025-04-28 13:03:30.921108] ** Placement: 0.0 seconds
+[2025-04-28 13:03:59.604161] ** Routing: 28.7 seconds
+[2025-04-28 13:03:59.613856] ** Verification: 0.0 seconds
+[2025-04-28 13:03:59.614251] ** SRAM creation: 29.6 seconds
+[2025-04-28 13:03:59.614546] SP: Writing to /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.sp
+[2025-04-28 13:03:59.669960] ** Spice writing: 0.1 seconds
+[2025-04-28 13:03:59.670515] DELAY: Writing stimulus...
+[2025-04-28 13:03:59.785623] ** DELAY: 0.1 seconds
+[2025-04-28 13:03:59.800373] GDS: Writing to /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.gds
+[2025-04-28 13:03:59.880850] ** GDS: 0.1 seconds
+[2025-04-28 13:03:59.881420] LEF: Writing to /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.lef
+[2025-04-28 13:03:59.890375] ** LEF: 0.0 seconds
+[2025-04-28 13:03:59.890681] LVS: Writing to /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.lvs.sp
+[2025-04-28 13:03:59.907614] ** LVS writing: 0.0 seconds
+[2025-04-28 13:03:59.907964] LIB: Characterizing... 
+[2025-04-28 13:04:00.137060] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2025-04-28 13:04:00.256599] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2025-04-28 13:04:00.392813] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2025-04-28 13:04:00.516298] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2025-04-28 13:04:00.518324] ** Characterization: 0.6 seconds
+[2025-04-28 13:04:00.521088] Config: Writing to /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.py
+[2025-04-28 13:04:00.521462] ** Config: 0.0 seconds
+[2025-04-28 13:04:00.526590] Datasheet: Writing to /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.html
+[2025-04-28 13:04:00.534167] ** Datasheet: 0.0 seconds
+[2025-04-28 13:04:00.534478] Verilog: Writing to /home/dareminion/proc_design/openram-mem/generated_mem/RAM_Mem.v
+[2025-04-28 13:04:00.535189] ** Verilog: 0.0 seconds
+[2025-04-28 13:04:00.536143] ** End: 30.6 seconds
